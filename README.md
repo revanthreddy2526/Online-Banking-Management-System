@@ -31,4 +31,4 @@ Worked on backend development:
 - Developed Servlets for banking operations
 - Implemented transaction logi
 ##  GitHub Repository
-https://github.com/revanthreddy2526/Online-Banking-System
+https://github.com/revanthreddy2526/Online-Banking-Management-System
