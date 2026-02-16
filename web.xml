@@ -1,0 +1,39 @@
+<web-app>
+
+<servlet>
+    <servlet-name>LoginServlet</servlet-name>
+    <servlet-class>com.bank.LoginServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+    <servlet-name>LoginServlet</servlet-name>
+    <url-pattern>/LoginServlet</url-pattern>
+</servlet-mapping>
+
+<servlet>
+    <servlet-name>DepositServlet</servlet-name>
+    <servlet-class>com.bank.DepositServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+    <servlet-name>DepositServlet</servlet-name>
+    <url-pattern>/DepositServlet</url-pattern>
+</servlet-mapping>
+
+<servlet>
+    <servlet-name>WithdrawServlet</servlet-name>
+    <servlet-class>com.bank.WithdrawServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+    <servlet-name>WithdrawServlet</servlet-name>
+    <url-pattern>/WithdrawServlet</url-pattern>
+</servlet-mapping>
+
+<servlet>
+    <servlet-name>FundTransferServlet</servlet-name>
+    <servlet-class>com.bank.FundTransferServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+    <servlet-name>FundTransferServlet</servlet-name>
+    <url-pattern>/FundTransferServlet</url-pattern>
+</servlet-mapping>
+
+</web-app>

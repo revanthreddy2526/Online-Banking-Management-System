@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h2>Bank Dashboard</h2>
+
+<form action="DepositServlet" method="post">
+Deposit Amount: <input type="number" name="amount">
+<input type="submit" value="Deposit">
+</form>
+
+<form action="WithdrawServlet" method="post">
+Withdraw Amount: <input type="number" name="amount">
+<input type="submit" value="Withdraw">
+</form>
+
+<form action="FundTransferServlet" method="post">
+Receiver ID: <input type="number" name="receiverId">
+Amount: <input type="number" name="amount">
+<input type="submit" value="Transfer">
+</form>
+
+</body>
+</html>
